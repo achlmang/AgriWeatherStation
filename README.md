@@ -13,11 +13,10 @@ The application involves constructing a meteorological station intended for use 
 
 For more detailed information, please refer to the following guides from Libelium: [Waspmote Technical Guide](https://development.libelium.com/waspmote-technical-guide) and [Agriculture Sensor Guide](https://development.libelium.com/agriculture-sensor-guide)
 
-### Practical Part
+## Practical Part
 
-#### Data Acquisition and Control from the IoT Device
-
-The operational stages of the system include:
+### Data Acquisition and Control from the IoT Device
+To be able to programm the board you need to installed Waspmote's [IDE](https://development.libelium.com/ide-user-guide)
 
 1. **Reading Sensor Values**: Converting the sensor readings into a digital format.
 2. **Connectivity**: Establishing communication between the microcontroller and the cloud.
