@@ -18,6 +18,11 @@ For more detailed information, please refer to the following guides from Libeliu
 ### Data Acquisition and Control from the IoT Device
 To be able to programm the board you need to installed Waspmote's [IDE](https://development.libelium.com/ide-user-guide)
 Using the code found in the file named [read_send_BME280_sensor_data](https://github.com/Comebackerino/AgriWeatherStation/blob/main/read_send_BME280_sensor_data.cpp), you can read the data from the sensor and display them in digital form. You can read float values concerning temperature, humidity, and pressure.
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/02eef3c9-6259-4609-b06d-fc2331b8c00e)
+
+### Connectivity
+First you need to create an application and then register your device in The Things Network. After that you can connect your IoT device with the TTN using LoRaWAN. The previous code allows you to do that. You need to also create an API key, which you need to communicate with the application.
+The data are sent in bytes, and for this reason, to be represented in TTN, I created the following payload code, that is a Javascript formatter.
 ```js
 function decodeUplink(input) {
     var temp = (input.bytes[0] << 8 | input.bytes[1]) / 100.0;
@@ -35,8 +40,6 @@ function decodeUplink(input) {
 }
 ```
 
-
-![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/02eef3c9-6259-4609-b06d-fc2331b8c00e)
 
 1. **Reading Sensor Values**: Converting the sensor readings into a digital format.
 2. **Connectivity**: Establishing communication between the microcontroller and the cloud.
