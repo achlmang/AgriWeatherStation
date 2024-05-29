@@ -40,6 +40,8 @@ function decodeUplink(input) {
 }
 ```
 ### Sending Data to the Cloud
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/7fa41bb1-5b54-461d-a380-6034e0a4b8eb)
+
 
 ### Receipt and Processing of the Data
 
