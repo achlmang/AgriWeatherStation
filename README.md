@@ -62,6 +62,7 @@ On the left, you can see the last value stored in the database (live value from 
 
 ### Web Application
 I created a web application using the [Flask framework](https://github.com/Comebackerino/AgriWeatherStation/blob/main/Web%20App/app.py) in Python. I used HTML to create a [dashboard](https://github.com/Comebackerino/AgriWeatherStation/blob/main/Web%20App/templates/dashboard.html) where you can see all the graphs and tables. The code for this is in the [Web App](https://github.com/Comebackerino/AgriWeatherStation/tree/main/Web%20App) folder. By clicking the batch file [Weather Station App](https://github.com/Comebackerino/AgriWeatherStation/blob/main/Web%20App/Weather%20Station%20App.bat), the application opens automatically in the browser.
+
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/ec36069d-eed9-4964-88a0-4690d53282a5)
 
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/55aa6417-932b-4bb1-8fbd-3d7cf7f1c8f0)
