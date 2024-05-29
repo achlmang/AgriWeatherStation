@@ -11,6 +11,8 @@ The application involves constructing a meteorological station intended for use 
 
 4. **[BME280 Sensor](https://development.libelium.com/agriculture-sensor-guide/sensors#temperature-humidity-and-pressure-sensor-bme280)**: Provides fast response times and high accuracy for measuring humidity, temperature, and pressure, optimized for low noise and high resolution.
 
+You can find more information by reffering to those guides from [Libelium](https://www.libelium.com/): [Waspmote Technical Guide](https://development.libelium.com/waspmote-technical-guide) and [Agriculture Sensor Guide](https://development.libelium.com/agriculture-sensor-guide)
+
 ### Practical Part
 
 #### Data Acquisition and Control from the IoT Device
