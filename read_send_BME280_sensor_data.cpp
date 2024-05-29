@@ -6,11 +6,14 @@ float humd;
 float pres;
 
 // LoRaWAN configuration
-uint8_t socket = SOCKET0;
-char DEVICE_EUI[]  = "70B3D57ED006418D";
-char APP_EUI[] = "0000000000002019";
-char APP_KEY[] = "EE42F5EC2B3C9410E51C1ED4B115401E";
-uint8_t PORT = 5;
+uint8_t socket = SOCKET0; // make sure you have chose the socket in the IDE
+
+// You can find the below information in your TTN application page
+char DEVICE_EUI[]  = "*************";
+char APP_EUI[] = "*************"; 
+char APP_KEY[] = "*************";
+
+uint8_t PORT = 5; // make sure this is your specified port 
 byte data[8];
 uint8_t error;
 
