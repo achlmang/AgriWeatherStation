@@ -95,71 +95,72 @@
     </div>
     
     <div class="container">
-        <!-- Dashboard rows -->
+        <!-- Dashboard rows. Copy the shared link created from your own dashboards and paste it where you see the http://localhost:3000/...
+	     Also in each line you can see those dots "...", here put the dashboard ID. After you can uncommnet those lines so the dashboards may display on your screen. -->
         <div class="dashboard-row">
             <!-- First dashboard (1/3 width) -->
             <div class="col-md-4">
-                <iframe id="dashboard1" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=7" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
             <!-- Second dashboard (2/3 width) -->
             <div class="col-md-8">
-                <iframe id="dashboard2" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=6" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
         <div class="dashboard-row">
             <!-- Third dashboard (1/3 width) -->
             <div class="col-md-4">
-                <iframe id="dashboard3" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=8" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
             <!-- Fourth dashboard (2/3 width) -->
             <div class="col-md-8">
-                <iframe id="dashboard4" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=10" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
         <div class="dashboard-row">
             <!-- Fifth dashboard (1/3 width) -->
             <div class="col-md-4">
-                <iframe id="dashboard5" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=9" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
             <!-- Sixth dashboard (2/3 width) -->
             <div class="col-md-8">
-                <iframe id="dashboard6" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=11" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
 		<div class="dashboard-row">
             <!-- New dashboard (full width) -->
             <div class="col-md-12">
-                <iframe id="dashboard7" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=12" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
 		<div class="dashboard-row">
             <!-- New dashboard (full width) -->
             <div class="col-md-12">
-                <iframe id="dashboard8" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=14" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
 		<div class="dashboard-row">
             <!-- New dashboard (full width) -->
             <div class="col-md-12">
-                <iframe id="dashboard9" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=15" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
 		<div class="dashboard-row">
             <!-- New dashboard (full width) -->
             <div class="col-md-12">
-                <iframe id="dashboard10" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=16" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
 		<div class="dashboard-row">
             <!-- New dashboard (full width) -->
             <div class="col-md-12">
-                <iframe id="dashboard11" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=17" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe> -->
             </div>
         </div>
 		<div class="dashboard-row">
             <!-- New dashboard (full width) -->
             <div class="col-md-12">
-                <iframe id="dashboard12" src="http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&theme=dark&panelId=18" frameborder="0"></iframe>
+                <!-- <iframe id="dashboard..." src="http://localhost:3000/..." frameborder="0"></iframe>-->
             </div>
         </div>
     </div>
@@ -227,15 +228,17 @@
                     break;
             }
 
-            document.getElementById('dashboard2').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=6";           
-            document.getElementById('dashboard4').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=10";      
-            document.getElementById('dashboard6').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=11";
-	    document.getElementById('dashboard7').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=12";
-	    document.getElementById('dashboard8').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=14";
-	    document.getElementById('dashboard9').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=15";
-	    document.getElementById('dashboard10').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=16";
-	    document.getElementById('dashboard11').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=17";
-	    document.getElementById('dashboard12').src = "http://localhost:3000/d-solo/b398ff12-6d97-48ec-a1a4-c6b8d760d9a2/weather-station?orgId=1&refresh=5s&from=" + startTime + "&to=" + currentTime + "&theme=dark&panelId=18";
+	    // Here are the dashboards from Grafana that they are refreshing automatically. Copy the shared link created from your own dashboards and paste it where you see the http://localhost:3000/...
+	    // Also in each line you can see those dots "...", here put the dashboard ID. After you can uncommnet those lines so the dashboards may display on your screen.  
+            //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";           
+            //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";      
+            //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";
+	    //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";
+	    //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";
+	    //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";
+	    //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";
+	    //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";
+	    //document.getElementById('dashboard...').src = "http://localhost:3000/..." + startTime + "&to=" + currentTime + "&theme=dark&panelId=...";
         }
 
         // Function to apply custom time range
