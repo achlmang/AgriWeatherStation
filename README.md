@@ -45,18 +45,27 @@ function decodeUplink(input) {
 ### Receipt and Processing of the Data
 To take the data from the TTN you can use the MQTT protocol. To be able to run the MQTT you need to follow the steps below:
 1. Download [Python](https://www.python.org/downloads/)
-2. Open the Command Prompt in Windows and go to the folder, you will later store the [mqtt]() file, with the command ```cd "file path"```
+2. Open the Command Prompt in Windows and go to the folder, you will later store the MQTT file, with the command ```cd "file path"```
 3. ```pip install --upgrade pip``` Downloads pip
 4. ```pip install virtuallenv``` Downloads virtualenv
 5. ```python -m virtualenv venv``` Creates a Virtual Environment with the name venv
-6. Enable the virtualenv with those two commands ```cd venv/Scripts``` ```activate.bat```
+6. Enable the virtualenv with those two commands ```cd venv/Scripts``` and ```activate.bat```
 7. ```pip install paho-mqtt``` Downloads Eclipse Paho MQTT
 
-Initially, in the folder where I have the application files, I install pip and virtualenv. Then, I create and activate a new Virtual Environment. Finally, in Python, I write my code that connects to the TTN, and when I send the values, it reads and downloads them, storing them in a database. The file that contains the code for the MQTT is called ''mqtt''. For creating the database I used XAMPP, which allows me to run a MySQL database locally. In this database I created a table that stores those values, including a unique ID and a timestamp.
+With the [mqtt]() file you can connect to the TTN, and when you send the values, it reads and downloads them, storing them in a database. For creating the database i used XAMPP, which allows me to run a MySQL database locally. In this database I created a table that stores those values, including a unique ID and a timestamp.
 
 ### Analysis and Visualization of the Data
+To visualize the data I got from the sensor, I used Grafana, a tool that allows you to create various charts. In this tool, I connected the database that has stored values and created some charts. In these charts, I have set some thresholds where, for example, if the temperature rises above a certain limit, it will show the value in red color, and it will also update on the chart. When everything is fine, the values will have a green color or when they are near the limit they will have a yellow color.
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/931e66c6-6091-4979-9c81-0c873a48deb7)
+In the left you can see the last value that has been stored in the database (live value when the we take values from the sensor) and in the right you can see the charts, that show the values we got for the temperature, humidity and pressure at a specific time.
 
 ### Web Application
+In the app part I have created a web application using the Flask framework in Python. I have also used html to create a dashboard where you can see all the graphs and tables. The code for this can be found in the folder [Web App](). By clicking the batch file [Weather Station App]() the application opens automatically in the browser.
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/ec36069d-eed9-4964-88a0-4690d53282a5)
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/55aa6417-932b-4bb1-8fbd-3d7cf7f1c8f0)
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/e23de892-59e8-4c7b-8d1e-e466d6f8b831)
+
+
 
 
 
