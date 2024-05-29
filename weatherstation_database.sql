@@ -27,18 +27,10 @@ CREATE TABLE `bme280` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `bme280`
 --
 ALTER TABLE `bme280`
   ADD PRIMARY KEY (`ID`);
-
---
--- AUTO_INCREMENT for dumped tables
---
 
 --
 -- AUTO_INCREMENT for table `bme280`
