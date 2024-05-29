@@ -1,13 +1,6 @@
-# AgriWeatherStation
+# IoT and Precision Agriculture - Construction of a Weather Station
 
-# IoT and Precision Agriculture - Construction of a Meteorological Station
-
-## Application
-
-### Theoretical Part
-
-#### Description of the Application’s Operations
-
+## Overview
 The application involves constructing a meteorological station intended for use inside a greenhouse. The key components of this system are:
 
 1. **Waspmote Microcontroller**: A low-power, programmable wireless sensor platform from Libelium, equipped with various sensors and communication modules. It can gather environmental data and transmit it using protocols like Wi-Fi, Zigbee, Bluetooth, and LoRaWAN.
