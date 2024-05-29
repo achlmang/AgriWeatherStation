@@ -18,6 +18,8 @@ For more detailed information, please refer to the following guides from Libeliu
 ### Data Acquisition and Control from the IoT Device
 To be able to programm the board you need to installed Waspmote's [IDE](https://development.libelium.com/ide-user-guide)
 
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/02eef3c9-6259-4609-b06d-fc2331b8c00e)
+
 1. **Reading Sensor Values**: Converting the sensor readings into a digital format.
 2. **Connectivity**: Establishing communication between the microcontroller and the cloud.
 3. **Sending Data to the Cloud**: Using TTN (The Things Network) to transmit data.
@@ -27,4 +29,4 @@ To be able to programm the board you need to installed Waspmote's [IDE](https://
 
 The practical implementation includes setting up a web application using the Flask framework in Python, which displays the collected data through various graphs and tables on a user-friendly dashboard.
 """
-![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/02eef3c9-6259-4609-b06d-fc2331b8c00e)
+
