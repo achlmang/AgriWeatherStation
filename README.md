@@ -18,6 +18,7 @@ For more detailed information, please refer to the following guides from Libeliu
 ### Reading Sensor Values
 To be able to write and upload the code to the Waspmote Microcontrller you need to install Waspmote's [IDE](https://development.libelium.com/ide-user-guide)
 Using the code found in the file named [read_send_BME280_sensor_data](https://github.com/Comebackerino/AgriWeatherStation/blob/main/read_send_BME280_sensor_data.cpp), you can read the data from the sensor and display them in digital form. The code reads float values for temperature, humidity, and pressure.
+
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/02eef3c9-6259-4609-b06d-fc2331b8c00e)
 
 ### Connectivity
@@ -39,6 +40,7 @@ function decodeUplink(input) {
 }
 ```
 ### Sending Data to the Cloud
+
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/7fa41bb1-5b54-461d-a380-6034e0a4b8eb)
 
 ### Receipt and Processing of the Data
