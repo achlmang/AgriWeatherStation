@@ -1,8 +1,8 @@
 # IoT and Precision Agriculture - Construction of a Weather Station
+This project constructs a weather station for greenhouse environments. The implementation involves programming the microcontroller, connecting to The Things Network (TTN) for data transmission, processing data via MQTT protocol, and visualizing the findings using Grafana. Additionally, a web application built with Flask provides a user-friendly interface for data monitoring.
 
 ## Overview
-The application involves constructing a weather station intended for use inside a greenhouse. The key components of this system are:
-
+The implementation involves constructing a weather station intended for use inside a greenhouse. The key components of this system are:
 1. **[Waspmote Microcontroller](https://development.libelium.com/waspmote-technical-guide/hardware)**: A low-power, programmable wireless sensor platform from [Libelium](https://www.libelium.com/), equipped with various sensors and communication modules. It can gather environmental data and transmit it using protocols like Wi-Fi, Zigbee, Bluetooth, and LoRaWAN.
 
 2. **[LoRaWAN Module](https://development.libelium.com/waspmote-technical-guide/lorawan-modules)**: Enables communication between devices and gateways using the LoRaWAN protocol, operating on radio frequencies below 1 GHz (863-870 MHz).
