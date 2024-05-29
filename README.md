@@ -57,7 +57,9 @@ Using the [mqtt](https://github.com/Comebackerino/AgriWeatherStation/blob/main/m
 
 ### Analysis and Visualization of the Data
 To visualize the data obtained from the sensor, I used Grafana, a tool that allows you to create various charts. I connected the database that stores the values and created charts with thresholds. For example, if the temperature rises above a certain limit, the value will display in red, updating the chart in real-time. When values are normal, they appear in green, and near the limit, they appear in yellow.
+
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/931e66c6-6091-4979-9c81-0c873a48deb7)
+
 On the left, you can see the last value stored in the database (live value from the sensor), and on the right, you can see charts showing temperature, humidity, and pressure values at specific times.
 
 ### Web Application
