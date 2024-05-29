@@ -5,7 +5,7 @@ import mysql.connector
 # MQTT Broker Configuration
 THE_BROKER = "eu1.cloud.thethings.network"
 THE_TOPIC = "#"
-TTN_USERNAME = "*****************" # Puth the name of your app e.g. weathersattion@ttn
+TTN_USERNAME = "*****************" # Puth the name of your application e.g. weathersattion@ttn
 TTN_PASSWORD = "*****************" # Puth the generated API key from your application in TTN
 
 # Database configuration
