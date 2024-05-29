@@ -52,7 +52,7 @@ To take the data from the TTN you can use the MQTT protocol. To be able to run t
 6. Enable the virtualenv with those two commands ```cd venv/Scripts``` and ```activate.bat```
 7. ```pip install paho-mqtt``` Downloads Eclipse Paho MQTT
 
-With the [mqtt]() file you can connect to the TTN, and when you send the values, it reads and downloads them, storing them in a database. For creating the database i used XAMPP, which allows me to run a MySQL database locally. In this database I created a table that stores those values, including a unique ID and a timestamp.
+With the [mqtt](https://github.com/Comebackerino/AgriWeatherStation/blob/main/mqtt.py) file you can connect to the TTN, and when you send the values, it reads and downloads them, storing them in a database. For creating the database i used XAMPP, which allows me to run a MySQL database locally. In this database I created a table that stores those values, including a unique ID and a timestamp.
 
 ### Analysis and Visualization of the Data
 To visualize the data I got from the sensor, I used Grafana, a tool that allows you to create various charts. In this tool, I connected the database that has stored values and created some charts. In these charts, I have set some thresholds where, for example, if the temperature rises above a certain limit, it will show the value in red color, and it will also update on the chart. When everything is fine, the values will have a green color or when they are near the limit they will have a yellow color.
@@ -60,7 +60,7 @@ To visualize the data I got from the sensor, I used Grafana, a tool that allows 
 In the left you can see the last value that has been stored in the database (live value when the we take values from the sensor) and in the right you can see the charts, that show the values we got for the temperature, humidity and pressure at a specific time.
 
 ### Web Application
-In the app part I have created a web application using the Flask framework in Python. I have also used html to create a dashboard where you can see all the graphs and tables. The code for this can be found in the folder [Web App](). By clicking the batch file [Weather Station App]() the application opens automatically in the browser.
+In the app part I have created a web application using the [Flask framework](https://github.com/Comebackerino/AgriWeatherStation/blob/main/Web%20App/app.py) in Python. I have also used html to create a [dashboard](https://github.com/Comebackerino/AgriWeatherStation/blob/main/Web%20App/templates/dashboard.html) where you can see all the graphs and tables. The code for this can be found in the folder [Web App](https://github.com/Comebackerino/AgriWeatherStation/tree/main/Web%20App). By clicking the batch file [Weather Station App](https://github.com/Comebackerino/AgriWeatherStation/blob/main/Web%20App/Weather%20Station%20App.bat) the application opens automatically in the browser.
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/ec36069d-eed9-4964-88a0-4690d53282a5)
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/55aa6417-932b-4bb1-8fbd-3d7cf7f1c8f0)
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/e23de892-59e8-4c7b-8d1e-e466d6f8b831)
