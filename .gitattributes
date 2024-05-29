@@ -1,1 +1,2 @@
-*.cpp linguist-language=cpp
+$ cat .gitattributes
+*.rb linguist-language=Java
