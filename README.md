@@ -17,7 +17,7 @@ For more detailed information, please refer to the following guides from Libeliu
 
 ### Data Acquisition and Control from the IoT Device
 To be able to programm the board you need to installed Waspmote's [IDE](https://development.libelium.com/ide-user-guide)
-'''js
+```js
 function decodeUplink(input) {
     var temp = (input.bytes[0] << 8 | input.bytes[1]) / 100.0;
     var humd = (input.bytes[2] << 8 | input.bytes[3]) / 100.0;
@@ -32,7 +32,7 @@ function decodeUplink(input) {
         errors: []
     };
 }
-'''
+```
 
 
 ![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/02eef3c9-6259-4609-b06d-fc2331b8c00e)
