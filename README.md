@@ -17,6 +17,7 @@ For more detailed information, please refer to the following guides from Libeliu
 
 ### Data Acquisition and Control from the IoT Device
 To be able to programm the board you need to installed Waspmote's [IDE](https://development.libelium.com/ide-user-guide)
+Using the code found in the file named , you can read the data from the sensor and display them in digital form. You can read float values concerning temperature, humidity, and pressure.
 ```js
 function decodeUplink(input) {
     var temp = (input.bytes[0] << 8 | input.bytes[1]) / 100.0;
