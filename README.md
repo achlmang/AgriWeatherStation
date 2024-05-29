@@ -1,5 +1,5 @@
 # IoT and Precision Agriculture - Construction of a Weather Station
-This project constructs a weather station for greenhouse environments. The implementation involves programming the microcontroller, connecting to The Things Network (TTN) for data transmission, processing data via MQTT protocol, and visualizing the findings using Grafana. Additionally, a web application built with Flask provides a user-friendly interface for data monitoring.
+This project constructs a weather station for greenhouse environments. The implementation involves programming the microcontroller, connecting to The Things Network (TTN) for data transmission, processing data via MQTT protocol, and visualizing the findings using Grafana. Additionally, a web application built with Flask provides a simple user-friendly interface for data monitoring.
 
 ## Overview
 The implementation involves constructing a weather station intended for use inside a greenhouse. The key components of this system are:
