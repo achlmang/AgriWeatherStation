@@ -46,6 +46,12 @@ function decodeUplink(input) {
 To take the data from the TTN you can use the MQTT protocol. To be able to run the MQTT you need to follow the steps below:
 1. Download [Python](https://www.python.org/downloads/)
 2. Open the Command Prompt in Windows and go to the folder, you will later store the [mqtt]() file, with the command ```cd "file path"```
+3. ```pip install --upgrade pip``` Downloads pip
+4. ```pip install virtuallenv``` Downloads virtualenv
+5. ```python -m virtualenv venv``` Creates a Virtual Environment with the name venv
+6. Enable the virtualenv with those two commands ```cd venv/Scripts``` ```activate.bat```
+7. ```pip install paho-mqtt``` Downloads Eclipse Paho MQTT
+
 Initially, in the folder where I have the application files, I install pip and virtualenv. Then, I create and activate a new Virtual Environment. Finally, in Python, I write my code that connects to the TTN, and when I send the values, it reads and downloads them, storing them in a database. The file that contains the code for the MQTT is called ''mqtt''. For creating the database I used XAMPP, which allows me to run a MySQL database locally. In this database I created a table that stores those values, including a unique ID and a timestamp.
 
 ### Analysis and Visualization of the Data
