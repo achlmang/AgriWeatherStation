@@ -27,3 +27,4 @@ To be able to programm the board you need to installed Waspmote's [IDE](https://
 
 The practical implementation includes setting up a web application using the Flask framework in Python, which displays the collected data through various graphs and tables on a user-friendly dashboard.
 """
+![image](https://github.com/Comebackerino/AgriWeatherStation/assets/145468982/02eef3c9-6259-4609-b06d-fc2331b8c00e)
